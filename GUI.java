@@ -256,9 +256,7 @@ public class GUI extends JFrame implements ChangeListener, ActionListener{
         weightVal = Double.parseDouble(weight);
 
 
-        totalBMI = calc.calcBMI(weightVal,height); 
-        
-        
+        totalBMI = calc.calcBMI(weightVal,height);
 
 
         outputArea.setText("BMI Result");
